@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
 
+/* -------------  VARIABLES  -------------- */
+
+:root {
+    --bg: #193441;
+    --bg2: #3E606F;
+    --primario: #91AA9D;
+    --primario2: #D1DBBD;
+
+    --blanco: #FCFFF5;
+    --blanco2: rgb(248, 249, 245);
+
+    --c-s: 75%;
+    --c-m: 86%;
+    --c-l: 90%;
+
+    --animacion: all 400ms ease; 
+}
+
 /* -------------  *  -------------- */
 
 * {
@@ -12,27 +30,12 @@
     text-decoration: none;
 }
 
-:root {
-    --bg: #193441;
-    --bg2: #3E606F;
-    --primario: #91AA9D;
-    --primario2: #D1DBBD;
-
-    --blanco: #FCFFF5;
-    --blanco2: #ffff;
-
-    --container-s: 75%;
-    --container-m: 86%;
-    --container-l: 90%;
-
+::-webkit-scrollbar{
+    display: none;
 }
 
 html{
     scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar{
-    display: none;
 }
 
 body{
@@ -44,4 +47,79 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
 }
 
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
 /* -------------  GENERAL  -------------- */
+
+
+a {
+    color: var(--primario);
+    transition: var(--animacion);
+}
+
+a:hover{
+    color: var(--blanco)
+}
+
+.contenedor{
+    width: var(--c-l);
+    margin: 0 auto;
+}
+
+.seccion{
+    margin-top: 8rem;
+}
+
+.seccion > h2{
+    text-align: center;
+    color: var(--primario);
+    margin-bottom: 3rem;
+}
+
+.seccion > h5{
+    text-align: center;
+    color: var(--blanco2);
+}
+
+.text-blanco{
+    color: var(--blanco);
+}
+
+.text-blanco2{
+    color: var(--blanco2);
+}
+
+.boton{
+    width: max-content;
+    display: inline-block;
+    color: var(--primario);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--primario);
+    transition: var(--animacion);
+}
+
+.boton:hover{
+    background: var(--blanco);
+    color: var(--bg);
+    border-color: transparent;
+}
+
+.boton-primary{
+    background: var(--primario);
+    color: var(--bg)
+}
