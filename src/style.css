@@ -123,3 +123,26 @@ a:hover{
     background: var(--primario);
     color: var(--bg)
 }
+
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (max-width: 1024px) {
+    .contenedor{
+        width: var(--c-m);
+    }
+
+    .seccion{
+        margin-top: 6rem;
+    }
+}
+
+/* -------------  RESPONSIVE TELEFONO  -------------- */
+@media screen and (max-width: 600px) {
+    .contenedor{
+        width: var(--c-s);
+    }
+
+    .seccion > h2{
+        margin-bottom: 2rem;
+    }
+}
