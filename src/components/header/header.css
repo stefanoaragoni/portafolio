@@ -2,12 +2,11 @@
 
 header{
     height: 100vh;
-    padding-top: 40vh;
+    padding-top: 41vh;
     overflow: hidden;
 }
 
 .h_contenedor{
-    text-align: center;
     height: 100%;
     position: relative;
 }
@@ -18,7 +17,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     left: 0;
     bottom: 4rem;
@@ -29,4 +28,12 @@ header{
     width: 1px;
     height: 2rem;
     background: var(--primario);
+}
+
+.Laptop{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30rem;
+    height: 30rem;
 }
