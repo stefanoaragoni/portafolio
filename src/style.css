@@ -3,13 +3,13 @@
 /* -------------  VARIABLES  -------------- */
 
 :root {
-    --bg: #193441;
-    --bg2: #3E606F;
-    --primario: #91AA9D;
-    --primario2: #D1DBBD;
+    --bg: #222222;
+    --bg2: #313131;
+    --primario: #414141;
+    --primario2: #9f9f9f;
 
-    --blanco: #FCFFF5;
-    --blanco2: rgb(248, 249, 245);
+    --blanco: #ffff;
+    --blanco2: #D3D6DB;
 
     --c-s: 75%;
     --c-m: 86%;
@@ -43,8 +43,6 @@ body{
     background-color: var(--bg);
     color: var(--blanco);
     line-height: 1.7;
-
-    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
 }
 
 img{
@@ -66,7 +64,7 @@ h2, h3, h4, h5 {
 
 
 a {
-    color: var(--primario);
+    color: var(--primario2);
     transition: var(--animacion);
 }
 
