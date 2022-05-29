@@ -42,8 +42,8 @@ header{
 .Laptop{
     position: sticky;
 
-    width: 40rem;
-    height: 40rem;
+    width: 50rem;
+    height: 50rem;
 
     margin-left: auto;
     margin-right: auto;
@@ -54,8 +54,8 @@ header{
 @media screen and (max-width: 1024px) {
 
     .Laptop{
-        width: 30rem;
-        height: 30rem;
+        width: 35rem;
+        height: 35rem;
     }
 
 }
