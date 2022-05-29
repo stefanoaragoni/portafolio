@@ -78,17 +78,16 @@ a:hover{
 }
 
 section{
-    margin-top: 8rem;
     height: 100vh;
 }
 
-section > h2{
+h2{
     text-align: center;
     color: var(--blanco2);
     margin-bottom: 3rem;
 }
 
-section > h5{
+h5{
     text-align: center;
     color: var(--primario);
 }

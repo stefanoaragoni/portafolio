@@ -1,3 +1,7 @@
+.about{
+
+}
+
 .c_about{
     display: grid;
     grid-template-columns: 90%;
@@ -39,6 +43,12 @@
     color: var(--blanco2);
 }
 
+.a_description{
+    margin: 3rem 0 2.6rem;
+    color: var(--blanco);
+    text-align: justify;
+}
+
 
 /* -------------  RESPONSIVE TABLET  -------------- */
 @media screen and (min-width: 701px) {
@@ -46,6 +56,12 @@
     .a_tarjetas{
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
+    }
+
+    .about{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
 }
@@ -57,4 +73,6 @@
         grid-template-rows: repeat(3, 1fr);
         gap: 1.5rem;
     }
+
+
 }
