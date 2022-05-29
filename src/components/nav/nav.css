@@ -24,7 +24,7 @@ nav a{
 }
 
 nav a.activo{
-    background: var(--bg);
+    background: var(--bg2);
     color: var(--blanco);
 }
 
@@ -35,7 +35,7 @@ nav a.activo{
 @media screen and (max-width: 1024px) {
 
     nav{
-        display: hidden;
+        visibility: visible;
     }
 
 }
@@ -43,7 +43,7 @@ nav a.activo{
 /* -------------  RESPONSIVE TELEFONO  -------------- */
 @media screen and (max-width: 600px) {
 
-    .nav{
+    nav{
         visibility: hidden;
     }
 }
