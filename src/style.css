@@ -77,17 +77,18 @@ a:hover{
     margin: 0 auto;
 }
 
-.seccion{
+section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
-.seccion > h2{
+section > h2{
     text-align: center;
     color: var(--primario);
     margin-bottom: 3rem;
 }
 
-.seccion > h5{
+section > h5{
     text-align: center;
     color: var(--blanco2);
 }
@@ -129,7 +130,7 @@ a:hover{
         width: var(--c-m);
     }
 
-    .seccion{
+    section{
         margin-top: 6rem;
     }
 }
@@ -140,7 +141,7 @@ a:hover{
         width: var(--c-s);
     }
 
-    .seccion > h2{
+    section > h2{
         margin-bottom: 2rem;
     }
 }
