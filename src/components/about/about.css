@@ -4,14 +4,13 @@
 
 .c_about{
     display: grid;
-    grid-template-columns: 90%;
-    gap:  10%;
-
     justify-content: center;
 }
 
 .a_tarjetas{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .a_tarjeta{
@@ -53,6 +52,11 @@
 /* -------------  RESPONSIVE TABLET  -------------- */
 @media screen and (min-width: 701px) {
 
+    .c_about{
+        grid-template-columns: 90%;
+        gap:  10%;
+    }
+
     .a_tarjetas{
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
@@ -66,17 +70,71 @@
 
 }
 
-/* -------------  RESPONSIVE TELEFONO  -------------- */
+/* -------------  RESPONSIVE TELEFONO GRANDE -------------- */
 @media screen and (max-width: 700px) {
+    .c_about{
+        grid-template-columns: 99%;
+        gap:  1%;
+    }
 
-    .a_tarjetas{
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1.5rem;
+    .a_tarjeta{
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+    
+    .a_dibujo{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     .a_description{
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    
+    .a_tarjeta > h5{
+        font-size: 0.9rem;
+    }
+    
+    .a_tarjeta > small{
+        font-size: 0.6rem;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
+@media screen and (max-width: 535px) {
+
+    .c_about{
+        grid-template-columns: 99%;
+        gap:  1%;
+    }
+
+    .a_tarjeta{
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+    
+    .a_dibujo{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .a_description{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+    
+    .a_tarjeta > h5{
+        font-size: 0.6rem;
+    }
+    
+    .a_tarjeta > small{
+        font-size: 0.5rem;
+        visibility:hidden;
+        display: none;
     }
 
 }
