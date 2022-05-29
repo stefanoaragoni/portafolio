@@ -158,7 +158,7 @@
     }
 
     .longSection > section{
-        height: 120vh;
+        height: 110vh;
     }
 
     .e_left{
@@ -171,6 +171,12 @@
 /* -------------  RESPONSIVE TELEFONO DIMINUTO  -------------- */
 @media screen and (max-width: 750px) {
 
+    .experience{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .e_left{
         grid-template-columns: 1fr 1fr;
         row-gap: 2rem;
@@ -178,7 +184,7 @@
     }
 
     .longSection > section{
-        height: 140vh;
+        height: 110vh;
     }
 
     .e_language{
