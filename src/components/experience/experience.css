@@ -50,7 +50,7 @@
 }
  
 .skill > p {
-    font-size: 1.51rem;
+    font-size: 1.52rem;
     font-weight: 300;
     color: var(--blanco);
     margin: 0;
@@ -140,10 +140,6 @@
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-    }
-
-    .longSection > section{
-        height: 110vh;
     }
 
     .e_left{
