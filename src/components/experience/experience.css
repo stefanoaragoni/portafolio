@@ -157,10 +157,6 @@
         transform: translateY(-50%);
     }
 
-    .longSection > section{
-        height: 110vh;
-    }
-
     .e_left{
         grid-template-columns: 1fr 1fr;
         row-gap: 2rem;
@@ -194,9 +190,6 @@
         padding: 0.6rem 1.45rem;
         border-radius: 2rem;
         border: 1px solid transparent;
-    
-        width: 100%;
-    
     }
 }
 
@@ -220,9 +213,6 @@
         padding: 0.6rem 1.45rem;
         border-radius: 2rem;
         border: 1px solid transparent;
-    
-        width: 100%;
-    
     }
 }
 
@@ -245,8 +235,5 @@
         padding: 0.6rem 1.45rem;
         border-radius: 2rem;
         border: 1px solid transparent;
-    
-        width: 100%;
-    
     }
 }
