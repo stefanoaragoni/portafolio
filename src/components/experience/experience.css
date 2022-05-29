@@ -142,6 +142,10 @@
         transform: translateY(-50%);
     }
 
+    .longSection > section{
+        height: 110vh;
+    }
+
     .e_left{
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 2rem;
@@ -155,6 +159,10 @@
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    .longSection > section{
+        height: 140vh;
     }
 
     .e_left{
@@ -200,7 +208,7 @@
     }
 
     .longSection > section{
-        height: 150vh;
+        height: 200vh;
     }
 
     .e_language{
@@ -215,33 +223,6 @@
     
     }
 }
-
-
-/* -------------  RESPONSIVE TELEFONO iphone 12  -------------- */
-@media screen and (max-width: 421px) {
-
-    .e_left{
-        grid-template-columns: 1fr;
-        column-gap: 1rem;
-    }
-
-    .longSection > section{
-        height: 180vh;
-    }
-
-    .e_language{
-        display: flex;
-        gap: 1rem;
-    
-        padding: 0.6rem 1.45rem;
-        border-radius: 2rem;
-        border: 1px solid transparent;
-    
-        width: 100%;
-    
-    }
-}
-
 
 /* -------------  RESPONSIVE TELEFONO iphone SE  -------------- */
 @media screen and (max-width: 376px) {
@@ -252,7 +233,7 @@
     }
 
     .longSection > section{
-        height: 200vh;
+        height: 220vh;
     }
 
     .e_language{
