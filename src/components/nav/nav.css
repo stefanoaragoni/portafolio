@@ -1,5 +1,5 @@
 nav {
-    background: rgb(0, 0, 0);
+    background: transparent;
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -13,4 +13,37 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+}
+
+nav a{
+    background: transparent;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--primario2);
+}
+
+nav a.activo{
+    background: var(--bg);
+    color: var(--blanco);
+}
+
+
+
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (max-width: 1024px) {
+
+    nav{
+        display: hidden;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO  -------------- */
+@media screen and (max-width: 600px) {
+
+    .nav{
+        visibility: hidden;
+    }
 }
