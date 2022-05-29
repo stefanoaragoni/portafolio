@@ -1,0 +1,60 @@
+.c_about{
+    display: grid;
+    grid-template-columns: 90%;
+    gap:  10%;
+
+    justify-content: center;
+}
+
+.a_tarjetas{
+    display: grid;
+}
+
+.a_tarjeta{
+    background: var(--bg2);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--animacion);
+}
+
+.a_tarjeta:hover{
+    background: var(--primario);
+}
+
+.a_dibujo{
+    color: var(--blanco2);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.a_tarjeta > h5{
+    font-size: 1rem;
+    color: var(--blanco);
+}
+
+.a_tarjeta > small{
+    font-size: 0.7rem;
+    color: var(--blanco2);
+}
+
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (min-width: 701px) {
+
+    .a_tarjetas{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO  -------------- */
+@media screen and (max-width: 700px) {
+
+    .a_tarjetas{
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}

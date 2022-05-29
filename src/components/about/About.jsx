@@ -14,13 +14,7 @@ export const About = () => {
       <h5>Stefano Aragoni</h5>
       <h2>About Me</h2>
 
-      <div className="container c_about">
-
-        <div className="about_me">
-          <div className="about_me-img">
-            <img src={selfie} alt="Stefano"/>
-          </div>
-        </div>
+      <div className="contenedor c_about">
 
         <div className="about_info">
           <div className="a_tarjetas">
@@ -34,7 +28,7 @@ export const About = () => {
             <article className='a_tarjeta'>
               <SiPython className='a_dibujo'/>
               <h5>Programming Tutor</h5>
-              <small>Python, Java, ARM Assembly</small>
+              <small>Python, ARM Assembly</small>
             </article>
 
             <article className='a_tarjeta'>
