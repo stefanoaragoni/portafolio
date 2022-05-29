@@ -39,8 +39,8 @@ export const About = () => {
             </div>
 
             <div className='a_description'>
-              I am Stefano Aragoni and I am a third-year computer science student. My passion for technology and programming brought me to Universidad Del Valle de Guatemala (UVG), where i am working on my BS in Computer Science Engineering. 
-              Over the last 2 years, i have mantained a 4.0 GPA and have been awarded multiple times for my academic excellence. I am currently working at UVG as a Teaching Assistant and a programming tutor.
+              I am Stefano Aragoni and I am a third-year computer science student. My passion for technology and programming brought me to Universidad Del Valle de Guatemala (UVG), where I am working on my BS in Computer Science Engineering. 
+              Over the last 2 years, I have mantained a 4.0 GPA and have been awarded multiple times for my academic excellence. I am currently working at UVG as a Teaching Assistant and a programming tutor.
               In my free time, I love to listen to music and cook.
             </div>
           </div>
