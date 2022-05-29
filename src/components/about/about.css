@@ -46,6 +46,7 @@
     margin: 3rem 0 2.6rem;
     color: var(--blanco);
     text-align: justify;
+    font-size: 1rem;
 }
 
 
@@ -55,11 +56,6 @@
     .c_about{
         grid-template-columns: 90%;
         gap:  10%;
-    }
-
-    .a_tarjetas{
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
     }
 
     .about{
@@ -78,33 +74,18 @@
     }
 
     .a_tarjeta{
-        border-radius: 1rem;
         padding: 1rem;
     }
-    
-    .a_dibujo{
-        font-size: 2rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
 
-    .a_description{
-        text-align: center;
-        font-size: 0.7rem;
+    .about{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
-    
-    .a_tarjeta > h5{
-        font-size: 0.9rem;
-    }
-    
-    .a_tarjeta > small{
-        font-size: 0.6rem;
-    }
-
 }
 
 /* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 545px) {
 
     .c_about{
         grid-template-columns: 99%;
@@ -112,27 +93,58 @@
     }
 
     .a_tarjeta{
-        border-radius: 1rem;
         padding: 0.5rem;
     }
     
     .a_dibujo{
-        font-size: 2rem;
         margin-bottom: 0.5rem;
         margin-top: 0.5rem;
     }
 
     .a_description{
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     
     .a_tarjeta > h5{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     
     .a_tarjeta > small{
-        font-size: 0.5rem;
+        visibility:hidden;
+        display: none;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO DIMINUTO  -------------- */
+@media screen and (max-width: 400px) {
+
+    .c_about{
+        grid-template-columns: 99%;
+        gap:  1%;
+    }
+
+    .a_tarjeta{
+        padding: 0.5rem;
+    }
+    
+    .a_dibujo{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+
+    .a_description{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+    .a_tarjeta > h5{
+        visibility:hidden;
+        display: none;
+    }
+    
+    .a_tarjeta > small{
         visibility:hidden;
         display: none;
     }
