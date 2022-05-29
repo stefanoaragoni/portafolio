@@ -1,0 +1,150 @@
+.experience{
+
+}
+
+
+.c_experience{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 90%;
+    gap:  10%;
+
+}
+
+.e_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.e_language{
+    display: flex;
+    gap: 2rem;
+
+    background: var(--primario);
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+    width: 100%;
+
+}
+
+.e_language:hover{
+    background: var(--primario3);
+}
+
+.e_language-icons{
+    margin: 6px;
+    color: var(--blanco2);
+    font-size: 3rem;
+}
+
+
+ 
+.skill {
+    margin-bottom: 0rem;
+    position: relative;
+
+    width: 100%;
+
+
+}
+ 
+.skill > p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--blanco);
+    margin: 0;
+}
+ 
+.skill:before {
+    width: 100%;
+    height: 0.5rem;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0.7rem;
+}
+ 
+.skill-bar {
+    width: 100%;
+    height: 0.5rem;
+    background: var(--bg2);
+    display: block;
+    position: relative;
+}
+ 
+.skill-bar {
+    position: relative;
+}
+
+.skill1 {
+    width: 90%;
+}
+ 
+.skill2 {
+    width: 80%;
+}
+
+.skill3{
+    width: 70%;
+ }
+ 
+.skill1 .skill-count1 {
+    right: 0;
+
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    color: var(--primario2);
+}
+ 
+.skill2 .skill-count2 {
+    right: 0;
+
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    color: var(--primario2);
+}
+ 
+.skill3 .skill-count3 {
+    right: 0;
+
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    color: var(--primario2);
+}
+
+
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (min-width: 1380px) {
+
+    .experience{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO GRANDE -------------- */
+@media screen and (max-width: 700px) {
+    .experience{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
+@media screen and (max-width: 545px) {
+
+}
+
+/* -------------  RESPONSIVE TELEFONO DIMINUTO  -------------- */
+@media screen and (max-width: 400px) {
+
+}
