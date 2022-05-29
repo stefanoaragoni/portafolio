@@ -218,7 +218,7 @@
 
 
 /* -------------  RESPONSIVE TELEFONO iphone 12  -------------- */
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 421px) {
 
     .e_left{
         grid-template-columns: 1fr;
