@@ -84,13 +84,13 @@ section{
 
 section > h2{
     text-align: center;
-    color: var(--primario);
+    color: var(--blanco2);
     margin-bottom: 3rem;
 }
 
 section > h5{
     text-align: center;
-    color: var(--blanco2);
+    color: var(--primario);
 }
 
 .text-blanco{
