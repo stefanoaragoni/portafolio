@@ -4,11 +4,9 @@
     transform: translateY(-50%);
 }
 
-.c_portafolio{
+.grid_center{
     display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 2.5rem;
-    
+    grid-template-columns: 90%;
     justify-content: center;
 }
 
@@ -26,6 +24,7 @@
     justify-content: center;
     display: flex;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .p_item:hover{
@@ -37,13 +36,55 @@
     overflow: hidden;
 }
 
-.p_item-img:hover{
-    transform: scale(1.05);
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: -1;
+.p_item > h3{
+    margin: 2rem 0 2rem;
 }
 
-.p_item > h3{
-    margin: 1rem 0 1rem;
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (min-width: 950px) {
+
+    .one{
+        visibility:hidden;
+        display: none;
+    }
+
+    .two{
+        visibility:hidden;
+        display: none;
+    }
+}
+
+/* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
+@media screen and (max-width: 949px) {
+    .one{
+        visibility:hidden;
+        display: none;
+    }
+
+    .three{
+        visibility:hidden;
+        display: none;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO DIMINUTO  -------------- */
+@media screen and (max-width: 630px) {
+
+    .three{
+        visibility:hidden;
+        display: none;
+    }
+
+    .two{
+        visibility:hidden;
+        display: none;
+    }
+
+    .one{
+        visibility: visible;
+        display: contents;
+    }
+
 }
