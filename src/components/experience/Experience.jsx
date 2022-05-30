@@ -1,7 +1,12 @@
 import React from 'react'
 import './experience.css'
-import ProgressBar from "./progress.jsx";
 import {AiOutlineHtml5} from 'react-icons/ai'
+import {DiCss3, DiJava, DiPython} from 'react-icons/di'
+import {IoLogoJavascript} from 'react-icons/io'
+import {FaReact} from 'react-icons/fa'
+import {SiCplusplus, SiKotlin, SiAssemblyscript, SiUnity, SiPostgresql, SiNeo4J} from 'react-icons/si'
+
+
 
 const Experience = () => {
   return (
@@ -26,7 +31,7 @@ const Experience = () => {
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <DiCss3 className='e_language-icons'/>
               <div class="skill">
                   <p>CSS</p>
                   <div class="skill-bar skill1">
@@ -36,27 +41,27 @@ const Experience = () => {
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <IoLogoJavascript className='e_language-icons'/>
               <div class="skill">
                   <p>JS</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill2">
+                      <span class="skill-count2">Intermediate</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <FaReact className='e_language-icons'/>
               <div class="skill">
                   <p>React</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill2">
+                      <span class="skill-count2">Intermediate</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <DiJava className='e_language-icons'/>
               <div class="skill">
                   <p>Java</p>
                   <div class="skill-bar skill1">
@@ -66,7 +71,7 @@ const Experience = () => {
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <DiPython className='e_language-icons'/>
               <div class="skill">
                   <p>Python</p>
                   <div class="skill-bar skill1">
@@ -76,27 +81,27 @@ const Experience = () => {
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiCplusplus className='e_language-icons'/>
               <div class="skill">
                   <p>C++</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill3">
+                      <span class="skill-count3">Beginner</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiKotlin className='e_language-icons'/>
               <div class="skill">
                   <p>Kotlin</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill2">
+                      <span class="skill-count2">Intermediate</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiAssemblyscript className='e_language-icons'/>
               <div class="skill">
                   <p>Assembly</p>
                   <div class="skill-bar skill1">
@@ -106,31 +111,31 @@ const Experience = () => {
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiUnity className='e_language-icons'/>
               <div class="skill">
                   <p>Unity</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill3">
+                      <span class="skill-count3">Beginner</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiPostgresql className='e_language-icons'/>
               <div class="skill">
                   <p>SQL</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill2">
+                      <span class="skill-count2">Intermediate</span>
                   </div>
               </div>
             </div>
 
             <div className='e_language'>
-              <AiOutlineHtml5 className='e_language-icons'/>
+              <SiNeo4J className='e_language-icons'/>
               <div class="skill">
                   <p>Neo4J</p>
-                  <div class="skill-bar skill1">
-                      <span class="skill-count1">Advanced</span>
+                  <div class="skill-bar skill3">
+                      <span class="skill-count3">Beginner</span>
                   </div>
               </div>
             </div>
