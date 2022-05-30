@@ -134,7 +134,7 @@
 
 }
 
-/* -------------  RESPONSIVE TELEFONO GRANDE -------------- */
+/* -------------  RESPONSIVE IPAD HORIZONTAL -------------- */
 @media screen and (max-width: 1400px) {
     .experience{
         position: relative;
@@ -149,12 +149,52 @@
     }
 }
 
-/* -------------  RESPONSIVE TELEFONO MEDIANO -------------- */
+/* -------------  RESPONSIVE COMPU -------------- */
+@media screen and (max-width: 1400px) and (max-height:800px) {
+    .experience{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .longSection > section{
+        height: 100vh;
+    }
+
+    .e_left{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+}
+
+
+/* -------------  RESPONSIVE IPAD VERTICAL-------------- */
 @media screen and (max-width: 1090px) {
     .experience{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    .e_left{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+}
+
+/* -------------  RESPONSIVE COMPU SPLIT SCREEN -------------- */
+@media screen and (max-width: 1090px) and (max-height: 800px) {
+    .experience{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .longSection > section{
+        height: 130vh;
     }
 
     .e_left{
@@ -204,6 +244,27 @@
 
     .longSection > section{
         height: 200vh;
+    }
+
+    .e_language{
+        display: flex;
+        gap: 1rem;
+    
+        padding: 0.6rem 1.45rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+    }
+}
+
+@media screen and (max-width: 650px) and (max-height:800px){
+
+    .e_left{
+        grid-template-columns: 1fr;
+        column-gap: 1rem;
+    }
+
+    .longSection > section{
+        height: 220vh;
     }
 
     .e_language{
