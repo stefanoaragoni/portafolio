@@ -16,10 +16,13 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+
+    e.target.reset()
   };
 
   return (
     <section id='contact'>
+      <div className="contact">
         <h5>Lets Chat</h5>
         <h2>Contact Me</h2>
 
@@ -31,7 +34,9 @@ const Contact = () => {
             <button type='submit' className='boton boton-primary'>Send</button>
           </form>
         </div>
+      </div>
     </section>
+
   )
 }
 

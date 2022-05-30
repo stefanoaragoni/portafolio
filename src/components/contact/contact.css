@@ -26,20 +26,6 @@ input, textarea{
     color: var(--blanco);
 }
 
-/* -------------  RESPONSIVE TABLET  -------------- */
-@media screen and (min-width: 950px) {
-
-    .one{
-        visibility:hidden;
-        display: none;
-    }
-
-    .two{
-        visibility:hidden;
-        display: none;
-    }
-}
-
 /* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
 @media screen and (max-width: 949px) {
     .c_contact{
