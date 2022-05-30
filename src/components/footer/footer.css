@@ -1,0 +1,13 @@
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.f_horizontal{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
