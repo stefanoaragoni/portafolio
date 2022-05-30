@@ -27,7 +27,7 @@ function Contact() {
                 <div className="c_contact">
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name="name" placeholder="Name" required />
-                        <input type="email" name="emal" placeholder="Email" required />
+                        <input type="email" name="email" placeholder="Email" required />
                         <textarea name="message" rows="7" placeholder="Message" required />
                         <button type="submit" className="boton boton-primary">Send</button>
                     </form>
