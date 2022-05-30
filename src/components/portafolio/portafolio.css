@@ -3,3 +3,47 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.c_portafolio{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 2.5rem;
+    
+    justify-content: center;
+}
+
+.p_item{
+    background-color: var(--primario);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--animacion);
+
+    text-align: center;
+}
+
+.c_botones{
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.p_item:hover{
+    background-color: var(--bg2);
+}
+
+.p_item-img{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.p_item-img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.p_item > h3{
+    margin: 1rem 0 1rem;
+}
