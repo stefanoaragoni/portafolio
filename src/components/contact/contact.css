@@ -1,0 +1,58 @@
+.contact{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.c_contact{
+    display: grid;
+    grid-template-columns: 30%;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background:transparent;
+    border: 2px solid var(--primario2);
+    resize: none;
+
+    color: var(--blanco);
+}
+
+/* -------------  RESPONSIVE TABLET  -------------- */
+@media screen and (min-width: 950px) {
+
+    .one{
+        visibility:hidden;
+        display: none;
+    }
+
+    .two{
+        visibility:hidden;
+        display: none;
+    }
+}
+
+/* -------------  RESPONSIVE TELEFONO PEQUE  -------------- */
+@media screen and (max-width: 949px) {
+    .c_contact{
+        grid-template-columns: 50%;
+    }
+
+}
+
+/* -------------  RESPONSIVE TELEFONO DIMINUTO  -------------- */
+@media screen and (max-width: 630px) {
+
+    .c_contact{
+        grid-template-columns: 70%;
+    }
+
+}
