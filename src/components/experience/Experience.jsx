@@ -124,8 +124,8 @@ const Experience = () => {
               <SiPostgresql className='e_language-icons'/>
               <div class="skill">
                   <p>SQL</p>
-                  <div class="skill-bar skill2">
-                      <span class="skill-count2">Intermediate</span>
+                  <div class="skill-bar skill1">
+                      <span class="skill-count1">Advanced</span>
                   </div>
               </div>
             </div>

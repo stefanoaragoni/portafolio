@@ -104,11 +104,11 @@ h5{
 .boton{
     width: max-content;
     display: inline-block;
-    color: var(--primario);
+    color: var(--blanco2);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--primario);
+    border: 1px solid var(--blanco2);
     transition: var(--animacion);
 }
 
@@ -119,10 +119,9 @@ h5{
 }
 
 .boton-primary{
-    background: var(--primario);
+    background: var(--primario2);
     color: var(--bg)
 }
-
 
 /* -------------  RESPONSIVE TABLET  -------------- */
 @media screen and (max-width: 1024px) {
