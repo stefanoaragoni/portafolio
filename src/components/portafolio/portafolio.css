@@ -10,6 +10,18 @@
     justify-content: center;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--bg) !important;
+}
+
+.swiper-button-prev{
+    color: transparent !important;
+}
+
+.swiper-button-next{
+    color: transparent !important;
+}
+
 .p_item{
     background-color: var(--primario);
     padding: 1.3rem;
