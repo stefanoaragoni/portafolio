@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: #F9b4ea;
+  color: #fff;
+}
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+h1{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h2{
+  font-size:xx-large;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(243, 130, 149);
+}
+
+.button2{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  justify-self: center;
+  align-self: start;
+  
+  background: #fff;
+  border: 2px solid #0000!;
+
+  height: 50px;
+
+  color: #0000!;
+  font-size: 1em;
+  font-weight: bold;
+
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: progress;
+}
+.button2:hover{
+  background: #fff!;
+  border: 2px solid #0000!;
+  height: 50px;
+  color: #0000!;
+}
+
+.button1{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  justify-self: end;
+
+  background: #fff;
+  border: 2px solid #0000!;
+
+  height: 50px;
+
+  color: #0000!;
+  font-size: 1em;
+  font-weight: bold;
+
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background: #c23866;
+  border: #c23866!;
+  color: #fff;
+}
+
+.info{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px;
+  grid-gap: 10px;
+}
+
+.memoria{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.cover{
+  height: 115px;
+  width: 115px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imagen{
+  height: 115px;
+  width: 115px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.front{
+  animation-name: rot;
+  animation-duration: 0.5s;
+}
+
+@keyframes rot {
+  1% {transform: rotateY(90deg);}
+  100% {transform: rotateY(0deg);}
+}

@@ -1,0 +1,154 @@
+<!--- STEFANO ARAGONI -->
+
+<!--- RUBRICA 
+CHECK - (20 puntos) [Criterio subjetivo] Según qué tan compleja es la imagen original que eligieron
+CHECK - (20 puntos) [Criterio subjetivo] Según qué tanto se parezca a la imagen original su dibujo en css
+
+CHECK - (50 puntos) Por cada elemento de html diferente que utilicen (10 C/U), para un máximo de 50 puntos. El primer elemento no cuenta. 
+
+CHECK - (10 puntos) Por utilizar los pseudo-elementos :before y :after 
+CHECK - (5 puntos) Por utilizar " " para combinar elementos descendientes
+
+CHECK - (5 puntos) Por utilizar las pseudo-clases :first-child y :last-child
+CHECK - (5 puntos) Por utilizar la pseudo-clase :nth-child
+
+TOTAL: 115
+-->
+
+
+<!DOCTYPE html>
+
+<!---ELEMENTO 0 HTML - NO CUENTA (HTML)-->
+<html>
+
+    <!---PRIMER ELEMENTO HTML (HEAD)-->
+    <head>
+        <meta charset="utf-8">
+
+        <!---SEGUNDO ELEMENTO HTML (LINK)-->
+        <link rel="icon" href="fig.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <!---TERCER ELEMENTO HTML (TITLE)-->
+        <title>CSS Drawing - Stefano Aragoni</title>
+    </head>
+    
+    <!---CUARTO ELEMENTO HTML (BODY)-->
+    <body>
+
+        <!---QUINTO ELEMENTO HTML (HEADER)-->
+        <header>
+            <font size="10">- B O M B O N -</font>
+        </header>
+
+        <div class="originalpic">
+            <figure>
+                <img src="BLOSSOMPNG.png"
+                        alt="original"
+                        style="width:325px;height:475px;">
+            </figure>      
+        </div>
+
+        <div class="BOMBON">
+            <!---SEXTO ELEMENTO HTML (DIV)-->
+            <div class="bottomhair">
+                <div class="square"></div>
+                <div class="edgeleft"></div>
+                <div class="edgeright"></div>
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
+
+            <div class="brazos">
+                <!---UTILIZA :NTH-CHILD-->
+                <div class="oval"></div>
+                <div class="oval"></div>
+                <div class="oval"></div>
+            </div>
+
+
+            <div class="dress">
+                <div class="tights1"></div>
+                <div class="tights2"></div>
+
+                <!---UTILIZA :FIRST-CHILD Y :LAST-CHILD-->
+                <div class="shoesRight">
+                    <div class="shoe1"></div>
+                    <div class="shoe1"></div>
+                </div>
+                
+
+                <!---UTILIZA :FIRST-CHILD Y :LAST-CHILD-->
+                <div class="ShoesLeft">
+                    <div class="shoe2"></div>
+                    <div class="shoe2"></div>
+                </div>
+
+                <div class="original"></div>
+                <div class="pink"></div>
+                <div class="black"></div>
+                <div class="pink2"></div>
+            </div>
+
+            <div class="face">
+                <div class="cara"></div>
+
+                <!---UTILIZA :NTH-CHILD-->
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+                <div class="ojo"></div>
+
+                <div class="boca">
+                    <div class="menos"></div>
+                </div>
+            </div>
+
+            <div class="tophair">
+                <div class="base"></div>
+
+                <!---UTILIZA '::BEFORE, ::AFTER' Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="left"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="right"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="bottom1"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="bottom2"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                
+                <div class="mono"></div>
+            </div>
+
+            <div class="hair">
+
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="pelo"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="peloM1"></div>
+                <!---UTILIZA ::BEFORE, ::AFTER Y " " PARA COMBINAR ELEMENTOS-->
+                <div class="peloM2"></div>
+            </div>
+        </div>
+        
+
+        <!---SEPTIMO ELEMENTO HTML (FOOTER)-->
+        <footer>
+            <p>
+                <font size="5">
+                Stefano Alberto Aragoni Maldonado - 20261
+                <br>
+                ~TAREA REALIZADA SOBRE 125%~
+                </font>
+            </p>
+        </footer>
+           
+
+    </body>
+
+</html>
+

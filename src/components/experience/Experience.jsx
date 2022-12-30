@@ -24,8 +24,8 @@ function Experience() {
                                 <AiOutlineHtml5 className="e_language-icons" />
                                 <div className="skill">
                                     <p>HTML</p>
-                                    <div className="skill-bar skill1">
-                                        <span className="skill-count1">Advanced</span>
+                                    <div className="skill-bar skill2">
+                                        <span className="skill-count2">Intermediate</span>
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +34,8 @@ function Experience() {
                                 <DiCss3 className="e_language-icons" />
                                 <div className="skill">
                                     <p>CSS</p>
-                                    <div className="skill-bar skill1">
-                                        <span className="skill-count1">Advanced</span>
+                                    <div className="skill-bar skill2">
+                                        <span className="skill-count2">Intermediate</span>
                                     </div>
                                 </div>
                             </div>
