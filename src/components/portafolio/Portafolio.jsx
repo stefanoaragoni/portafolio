@@ -24,14 +24,14 @@ function Portafolio() {
             nombre: 'Memory Game',
             imagen: memory,
             git: 'https://github.com/stefanoaragoni/memoriaNicki',
-            juan: './src/assets/memoriaNicki/index.html',
+            juan: 'src/assets/memoriaNicki/index.html',
             indice: 2,
         },
         {
             nombre: 'CSS Drawing',
             imagen: css,
             git: 'https://github.com/stefanoaragoni/CSS_drawing',
-            juan: './src/assets/drawingcss/index.html',
+            juan: 'src/assets/drawingcss/index.html',
             indice: 3,
         },
         {
