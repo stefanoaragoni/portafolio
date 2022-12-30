@@ -75,7 +75,6 @@ function Portafolio() {
                                         <h3>{nombre}</h3>
                                         <div className="c_botones">
                                             <a href={git} className="boton" target="_blank" rel="noreferrer">GitHub</a>
-                                            <a href={juan} className="boton boton-primary" target="_blank" rel="noreferrer">Demo</a>
                                         </div>
                                     </SwiperSlide>
                                 ))
